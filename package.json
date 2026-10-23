@@ -1,0 +1,16 @@
+{
+  "name": "@spitzli/tabularis-webdock-theme",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "node tools/theme.mjs validate .",
+    "package": "node tools/theme.mjs package . --output theme-universal.zip",
+    "check:contrast": "node tools/check-contrast.mjs"
+  },
+  "description": "The Webdock Console aesthetic for Tabularis: crisp white and true black surfaces, precise neutral borders and signature orange accents. Includes matching SQL editor colors.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spitzli/tabularis-webdock-theme.git"
+  }
+}

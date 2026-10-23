@@ -1,0 +1,214 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TabularisDB/tabularis/main/packages/web-ui/src/schemas/theme-definition-v1.json",
+  "schemaVersion": 1,
+  "attribution": "Spitzli Development — Webdock Console palette. Theme definitions licensed under MIT.",
+  "typography": {
+    "fontFamily": {
+      "base": [
+        "Inter Variable",
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif"
+      ],
+      "mono": [
+        "ui-monospace",
+        "SF Mono",
+        "Cascadia Mono",
+        "JetBrains Mono",
+        "DejaVu Sans Mono",
+        "Menlo",
+        "Consolas",
+        "monospace"
+      ]
+    }
+  },
+  "layout": {
+    "borderRadius": {
+      "sm": 4,
+      "base": 6,
+      "lg": 8,
+      "xl": 12
+    }
+  },
+  "mode": "light",
+  "colors": {
+    "bg": {
+      "base": "#ffffff",
+      "elevated": "#ffffff",
+      "overlay": "#fafafa",
+      "input": "#ffffff",
+      "tooltip": "#fafafa"
+    },
+    "surface": {
+      "primary": "#ffffff",
+      "secondary": "#fafafa",
+      "tertiary": "#f2f2f2",
+      "hover": "#f2f2f2",
+      "active": "#ffedd5",
+      "disabled": "#f2f2f2"
+    },
+    "text": {
+      "primary": "#171717",
+      "secondary": "#666666",
+      "muted": "#666666",
+      "disabled": "#a1a1a1",
+      "accent": "#c2410c",
+      "inverse": "#ffffff"
+    },
+    "accent": {
+      "primary": "#c2410c",
+      "secondary": "#9a3412",
+      "success": "#18794e",
+      "warning": "#a35200",
+      "error": "#c62a2f",
+      "info": "#1d4ed8"
+    },
+    "border": {
+      "subtle": "#ebebeb",
+      "default": "#ebebeb",
+      "strong": "#d6d6d6",
+      "focus": "#c2511b"
+    },
+    "semantic": {
+      "string": "#18794e",
+      "number": "#c2410c",
+      "boolean": "#7e22ce",
+      "date": "#0e7490",
+      "null": "#666666",
+      "primaryKey": "#a35200",
+      "foreignKey": "#1d4ed8",
+      "index": "#7e22ce",
+      "modified": "#a35200",
+      "deleted": "#c62a2f",
+      "new": "#18794e"
+    }
+  },
+  "editor": {
+    "colors": {
+      "editor.background": "#ffffff",
+      "editor.foreground": "#171717",
+      "editorCursor.foreground": "#c2410c",
+      "editorLineNumber.foreground": "#666666",
+      "editorLineNumber.activeForeground": "#c2410c",
+      "editor.selectionBackground": "#fed7aa",
+      "editor.inactiveSelectionBackground": "#ffedd5",
+      "editor.lineHighlightBackground": "#fafafa",
+      "editorIndentGuide.background1": "#ebebeb",
+      "editorIndentGuide.activeBackground1": "#d6d6d6",
+      "editorWidget.background": "#ffffff",
+      "editorWidget.border": "#d6d6d6",
+      "editorSuggestWidget.background": "#ffffff",
+      "editorSuggestWidget.foreground": "#171717",
+      "editorSuggestWidget.border": "#d6d6d6",
+      "editorSuggestWidget.selectedBackground": "#ffedd5",
+      "editorSuggestWidget.highlightForeground": "#c2410c",
+      "editorError.foreground": "#c62a2f",
+      "editorWarning.foreground": "#a35200",
+      "editorInfo.foreground": "#1d4ed8",
+      "focusBorder": "#c2511b"
+    },
+    "rules": [
+      {
+        "token": "comment",
+        "foreground": "#666666",
+        "fontStyle": "italic"
+      },
+      {
+        "token": "comment.sql",
+        "foreground": "#666666",
+        "fontStyle": "italic"
+      },
+      {
+        "token": "keyword",
+        "foreground": "#c2410c",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.sql",
+        "foreground": "#c2410c",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "string",
+        "foreground": "#18794e",
+        "fontStyle": ""
+      },
+      {
+        "token": "string.sql",
+        "foreground": "#18794e",
+        "fontStyle": ""
+      },
+      {
+        "token": "number",
+        "foreground": "#c2410c",
+        "fontStyle": ""
+      },
+      {
+        "token": "number.sql",
+        "foreground": "#c2410c",
+        "fontStyle": ""
+      },
+      {
+        "token": "operator",
+        "foreground": "#666666",
+        "fontStyle": ""
+      },
+      {
+        "token": "operator.sql",
+        "foreground": "#666666",
+        "fontStyle": ""
+      },
+      {
+        "token": "delimiter",
+        "foreground": "#666666",
+        "fontStyle": ""
+      },
+      {
+        "token": "delimiter.sql",
+        "foreground": "#666666",
+        "fontStyle": ""
+      },
+      {
+        "token": "identifier",
+        "foreground": "#171717",
+        "fontStyle": ""
+      },
+      {
+        "token": "identifier.sql",
+        "foreground": "#171717",
+        "fontStyle": ""
+      },
+      {
+        "token": "identifier.quote",
+        "foreground": "#0e7490",
+        "fontStyle": ""
+      },
+      {
+        "token": "identifier.quote.sql",
+        "foreground": "#0e7490",
+        "fontStyle": ""
+      },
+      {
+        "token": "predefined",
+        "foreground": "#7e22ce",
+        "fontStyle": ""
+      },
+      {
+        "token": "predefined.sql",
+        "foreground": "#7e22ce",
+        "fontStyle": ""
+      },
+      {
+        "token": "invalid",
+        "foreground": "#c62a2f",
+        "fontStyle": "underline"
+      },
+      {
+        "token": "invalid.sql",
+        "foreground": "#c62a2f",
+        "fontStyle": "underline"
+      }
+    ]
+  }
+}
