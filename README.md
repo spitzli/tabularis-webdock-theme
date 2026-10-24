@@ -100,9 +100,9 @@ tools/check-contrast.mjs    Theme contrast checks
 
 ## Publish and submit when ready
 
-The intended repository is **Spitzli/tabularis-webdock-theme**. The metadata
-already points to that repository and its screenshot URLs; those URLs become
-available after the source is pushed to its `main` branch.
+Source and screenshots are hosted at
+[spitzli/tabularis-webdock-theme](https://github.com/spitzli/tabularis-webdock-theme).
+The manifest references the screenshot files on the `main` branch.
 
 1. Push the reviewed source to the intended repository.
 2. Validate the release version: `node tools/theme.mjs validate . --tag v1.0.0`.
